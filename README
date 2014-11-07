@@ -1,0 +1,33 @@
+Screenshots of the program and Windows and Linux binaries compiled by Antti Vainio are available on his site at:
+http://www.anttivainio.net/fourd
+
+
+This program lets you rotate a tesseract and a 3-sphere in four dimensions.
+
+A tesseract is a four-dimensional cube like object. Basically, a tesseract is formed from a cube in a same way as a cube is formed from a square or a square is formed from a line.
+A 3-sphere is a four dimensional sphere like object. Its form is much more complex than the one of a tesseract and is much more difficult to understand.
+The rendering of the 3-sphere is executed so that the program draws dots that are on the surface of the 3-sphere, and as the dots move they leave a trail behind.
+
+The program uses cross-eyed 3D-rendering, that is, if you can cross your eyes to overlap the two images next to each other so that the resulting image is sharp, you will see the image in real 3D.
+
+NOTE:
+The interesting four dimensional transformation and projection stuff can be found in coordinate.cpp
+There is also an option for parallel 3D instead of cross-eyed 3D
+  This option can be enabled in global.hpp
+  If you use parallel 3D you should probably lower the resolution in main.cpp
+
+
+Compiling instructions:
+The program can be compiled at least on Windows and Linux.
+Linux users may use the provided Makefile to compile the program. You must have the dev package of SDL installed to compile.
+If you don't use the Makefile (like on Windows) you should link at least glu32, opengl32, SDL and SDLmain (and mingw32 if using MinGW).
+
+
+Running the program:
+Once compiled, you must have your graphic card drivers installed and support for OpenGL 1.1.
+
+
+This program was originally released on April 6th, 2012 at http://www.anttivainio.net
+
+You may use all the source codes for anything you want.
+
